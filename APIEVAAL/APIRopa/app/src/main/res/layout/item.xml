@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idPrecio"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/idTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Título del producto"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/idportadavideo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/idFechapub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📅 Publicado el: "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idUrlvideo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="▶️ "
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
